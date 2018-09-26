@@ -180,6 +180,8 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
 }
 
 #contact-form li {
@@ -214,4 +216,13 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* MOBILE VERSION */
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+      width: 100%;
+  }
 }
